@@ -1,0 +1,126 @@
+* {
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5% !important;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #eee !important;
+    background: #eee;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+div.container {
+    background: #001314;
+    min-width: 95% !important;
+    width: 95% !important;
+    height: auto;
+    margin: 20px auto !important;
+    min-height: 90vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    min-height: 90vh;
+    background: #001314;
+    margin-top: 30px;
+    position: relative;
+    box-shadow:  0 2px 4px #899596;
+    margin: 20px auto !important;
+}
+
+header h1 {
+    width: 50%;
+    font-size: 4rem;
+}
+
+img {
+    min-width: 250px;
+    width: 35%;
+    min-height: 250px;
+    height: auto;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 100;
+    background: #AA4420;
+    color: #eee !important;
+}
+
+header h1 {
+    width: 50%;
+    text-align: center;
+    min-width: 400px;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1rem;
+    color: #eee !important;
+}
+
+div.personal-info div.col-6 h1{
+    margin: 250px 30px !important;
+    text-align: center;
+}
+
+div.personal-info div.col-6 img {
+    margin: 125px 50px !important;
+    height: auto;
+    min-height: 400px;
+    width: 100%;
+}
+
+ul {
+    padding: 0 20px !important;
+}
+
+ul li {
+    color: #eee !important;
+    margin-bottom: 20px !important;
+    list-style: none;
+}
+
+table th, td{
+    color: #eee !important;
+}
+
+div.table {
+    width: 100%;
+    margin: auto;
+}
+table {
+    height: 400px;
+    width: 500px;
+    border: 1px solid #eee;
+}
+
+div.places div.row div.col-4  {
+    background: red;
+    align-self: center;
+    margin: auto;
+}
+
+
+div.place-description img {
+    float: left;
+}
+
+
+@media only screen and (max-width: 768px){
+    div.places div.row div.col-4:nth-child(2n-1) img{
+        float: right;
+    }
+}

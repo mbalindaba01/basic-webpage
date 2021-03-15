@@ -5,7 +5,7 @@
 }
 
 body {
-    font-size: 62.5%;
+    font-size: 62.5% !important;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
@@ -179,13 +179,17 @@ li {
     }
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1300px){
     header {
         flex-direction: column;
     }
 
     div.cape-town {
         flex-direction: column;
+    }
+
+    div.cape-town div.place:nth-child(2) img {
+        float: left;
     }
 
     section.places {
