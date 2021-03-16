@@ -98,11 +98,16 @@ div.city p {
     padding: 10px;
 }
 
+section.language {
+    min-height: 380px;
+}
+
 table {
-    width: 100%;
+    width: 95%;
     background: #eee;
     color: #001314;
     font-size: 2rem;
+    margin: 50px auto;
     margin-top: 50px;
 }
 
