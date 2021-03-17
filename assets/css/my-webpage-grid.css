@@ -58,7 +58,7 @@ header img {
     width: 100%;
     min-height: 400px;
     height: auto;
-    margin-top: 150px;
+    margin: 100px auto;
     border-radius: 20px;
 }
 
@@ -68,7 +68,6 @@ section.city img {
     position: relative;
     width: 100%;
     height: auto;
-    max-height: 400px;
     min-height: 200px;
     margin: auto;
 }
