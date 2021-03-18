@@ -40,7 +40,7 @@ h1 {
     font-size: 4rem;
     font-weight: 100;
     padding: 20px;
-    background: #AA4420;
+    background: #AA4400;
     width: 100%;
 }
 
@@ -48,6 +48,9 @@ h3 {
     text-align: center;
     padding-top: 10px;
     font-size: 1rem;
+    background: #eee;
+    color: #001314;
+    height: 50px;
 }
 
 header h1 {
@@ -135,34 +138,25 @@ div.cape-town {
 div.place {
     width: 100%;
     padding: 20px;
-    justify-content: space-between;
-    border-left: 1px solid #eee;
     font-size: 1rem;
-}
-
-div.place:nth-child(2n-1) {
-    flex-direction: row-reverse;
-}
-
-div.place img:nth-child(2n-1) {
-    height: auto;
-    max-height: 200px;
-    width: 200px;
+    height: 100%;
 }
 
 div.place img {
     float: right;
-    padding: 0 20px;
-    min-height: 150px;
-    height: auto;
     min-width: 200px;
-    width: 100%;
+    width: 200px;
+    min-height: auto;
+    border-radius: 0;
+    margin: 10px;
 }
 
 
 
 ul {
     list-style: none;
+    padding: 10px 0 0 0;
+    margin: 0;
 }
 
 li {
@@ -171,20 +165,8 @@ li {
     text-align: justify;
 }
 
-@media only screen and (max-width: 1300px){
 
-    
-    section h1 {
-        font-size: 2rem
-    }
-
-    div.place img {
-        min-width: 250px;
-        min-height: 200px;
-    }
-}
-
-@media only screen and (max-width: 1300px){
+@media only screen and (max-width: 1000px){
     header {
         flex-direction: column;
     }
@@ -204,7 +186,6 @@ li {
     div.place {
         width: 100%;
         margin-top: 40px;
-        border-bottom: 1px solid #eee;
     }
 
     div.place h3 {
@@ -232,9 +213,12 @@ li {
     div.place {
         width: 100%;
         margin-top: 40px;
-        border-bottom: 1px solid #eee;
         border-left: none;
         font-size: 0.8rem;
+    }
+
+    div.place img {
+        width: 200px;
     }
 
     div.place:nth-child(2n-1) {
@@ -258,8 +242,9 @@ li {
     }
 
     h3 {
-        height: 30px;
-        margin-top: -30px;
+        background: #eee;
+        color: #001314;
+        padding: 40px;
     }
 
     div.city {
@@ -275,6 +260,11 @@ li {
         max-height: 200px;
         height: auto;
         margin-top: 15px;
+    }
+
+    div.city p {
+        font-size: 1rem;
+        margin-top: 20px;
     }
 
     section h1 {
@@ -295,5 +285,14 @@ li {
         margin-top: -40px;
     }
 
+}
+
+@media only screen and (max-width: 800px) {
+    h1 {
+        font-size: 2rem;
+    }
+    table {
+        font-size: 1.5rem;
+    }
 }
 
