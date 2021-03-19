@@ -46,7 +46,7 @@ h3 {
 
 header {
     width: 95%;
-    height: 90vh;
+    height: 100%;
     background: #001314;
     margin: 20px auto;
 }
@@ -61,7 +61,6 @@ div#name h1 {
 }
 
 div#table-mt img {
-    margin-top: 100px;
 }
 
 header h1 {
@@ -73,9 +72,10 @@ header h1 {
 header img {
     min-width: 250px;
     width: 100%;
-    min-height: 250px;
+    min-height: 350px;
     height: auto;
     border-radius: 20px;
+
 }
 
 /*************************Which City Section****************************/
@@ -211,5 +211,9 @@ li {
     div.column div.row img {
         height: auto;
         width: 250px;
+    }
+
+    ul li {
+        
     }
 }
